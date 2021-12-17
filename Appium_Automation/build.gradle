@@ -12,14 +12,14 @@ repositories {
 dependencies {
     implementation group: 'io.cucumber', name: 'cucumber-java', version: '6.10.4'
     testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '6.10.4'
-    // https://mvnrepository.com/artifact/junit/junit
     testImplementation group: 'junit', name: 'junit', version: '4.13.2'
-    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.141.59'
-    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-alpha-1'
-    // https://mvnrepository.com/artifact/io.appium/java-client
     implementation group: 'io.appium', name: 'java-client', version: '7.1.0'
+    //    Will enable below jars with implementation later
+    //    implementation group: 'com.vimalselvam', name: 'cucumber-extentsreport', version: '3.1.1'
+    //    implementation group: 'com.aventstack', name: 'extentreports', version: '4.0.0'
+    //    implementation 'com.google.inject:guice:4.1.0'
 }
 
 test {
