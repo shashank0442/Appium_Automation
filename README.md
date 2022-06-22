@@ -4,7 +4,9 @@
 <H6><li>Setting up Java Home</H6>
 <a href> https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux </a>
 <H6><li>Setting up Android Home</H6>
+https://www.panayiotisgeorgiou.net/setting-android-home-enviromental-variable-on-macosx/
 <H6><li>Setting up gradle Home</H6>
+https://docs.gradle.org/current/userguide/installation.html
 
 
 Sample app to be downloaded from below URL 
