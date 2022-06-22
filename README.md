@@ -2,6 +2,7 @@
 <p>Please follow below setup steps.</p><br>
 <H3>Java Setup</H3>
 <H6><li>Setting up Java Home</H6>
+<a href> https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux </a>
 <H6><li>Setting up Android Home</H6>
 <H6><li>Setting up gradle Home</H6>
 
