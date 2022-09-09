@@ -25,5 +25,4 @@ hs_err_pid*
 /Appium_Automation/.gradle/
 /Appium_Automation/gradle/
 /Appium_Automation/build/tmp/compileTestJava/
-/bundle-to-test/*
 /Appium_Automation/*
