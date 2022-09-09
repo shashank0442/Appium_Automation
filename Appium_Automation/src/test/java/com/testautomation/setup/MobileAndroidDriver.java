@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class MobileAndroidDriver {
 
-    public void androidSetup() {
+    protected void androidSetup() {
         try {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("noReset", "true");
