@@ -18,6 +18,7 @@ public class MobileAndroidDriver {
             capabilities.setCapability("platformVersion", "11");
             capabilities.setCapability("platformName", "Android");
             capabilities.setCapability("automationName", "UiAutomator2");
+            capabilities.setCapability("deviceName", "emulator-5554");
             capabilities.setCapability("app", getClass().getClassLoader().getResourceAsStream("bundle-to-test/selendroid-test-app-0.17.0.apk"));
             URL url = new URL("http://127.0.0.1:4723/wd/hub");
             AndroidDriver driver = new AndroidDriver(url, capabilities);
@@ -25,5 +26,10 @@ public class MobileAndroidDriver {
         } catch (MalformedURLException e) {
             System.out.println(e.getMessage());
         }
+    }
+
+    public static void main(String[] args) {
+        MobileAndroidDriver obj=new MobileAndroidDriver();
+        obj.androidSetup();
     }
 }
