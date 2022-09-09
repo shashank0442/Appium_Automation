@@ -15,11 +15,11 @@ public class MobileAndroidDriver {
             capabilities.setCapability("noReset", "true");
             capabilities.setCapability("appActivity", "io.selendroid.testapp.HomeScreenActivity");
             capabilities.setCapability("appPackage", "io.selendroid.testapp");
-            capabilities.setCapability("platformVersion", "11");
+            capabilities.setCapability("platformVersion", "9");
             capabilities.setCapability("platformName", "Android");
             capabilities.setCapability("automationName", "UiAutomator2");
             capabilities.setCapability("deviceName", "emulator-5554");
-            capabilities.setCapability("app", getClass().getClassLoader().getResourceAsStream("bundle-to-test/selendroid-test-app-0.17.0.apk"));
+            capabilities.setCapability("app", getClass().getClassLoader().getResourceAsStream("selendroid-test-app-0.17.0.apk"));
             URL url = new URL("http://127.0.0.1:4723/wd/hub");
             AndroidDriver driver = new AndroidDriver(url, capabilities);
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
